@@ -1,6 +1,10 @@
 # DAA_AAT_AshritM
 Data Algorithms & Analysis AAT
 
+Name: Ashrit M
+
+USN: 1BM22AI022
+
 
 ## Knapsack
 
