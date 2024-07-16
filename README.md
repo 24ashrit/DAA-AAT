@@ -1,9 +1,11 @@
 # DAA_AAT_AshritM
 Data Algorithms & Analysis AAT
+Name: Ashrit M
+USN: 1BM22AI022
 
 ## Knapsack
 
-[Link to Knapsack submission](https://www.hackerrank.com/challenges/unbounded-knapsack/problem?isFullScreen=true)
+[Link to Knapsack submission]()
 
 ```python
 #!/bin/python3
@@ -56,65 +58,7 @@ if __name__ == '__main__':
 
 ## Cloudy Day
 
-[Link to Cloudy Day submission](# DAA_AAT
-Data Algorithms & Analysis AAT
-
-## Knapsack
-
-[Link to Knapsack submission](https://www.hackerrank.com/challenges/unbounded-knapsack/submissions/code/391221785)
-
-```python
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-#
-# Complete the 'unboundedKnapsack' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER k
-#  2. INTEGER_ARRAY arr
-#
-
-def unboundedKnapsack(k, arr):
-    max_sum = [0] * (k + 1)
-    
-    for i in range(1, k + 1):
-        for num in arr:
-            if num <= i:
-                max_sum[i] = max(max_sum[i], max_sum[i - num] + num)
-    
-    return max_sum[k]
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    t = int(input().strip())
-
-    for _ in range(t):
-        first_multiple_input = input().rstrip().split()
-
-        n = int(first_multiple_input[0])
-        k = int(first_multiple_input[1])
-
-        arr = list(map(int, input().rstrip().split()))
-
-        result = unboundedKnapsack(k, arr)
-
-        fptr.write(str(result) + '\n')
-
-    fptr.close()
-
-```
-
-## Cloudy Day
-
-[Link to Cloudy Day submission](https://www.hackerrank.com/challenges/cloudy-day/submissions/code/391222519)
+[Link to Cloudy Day submission](https://www.hackerrank.com/challenges/cloudy-day/submissions/code/391669399)
 
 ```python
 #!/bin/python3
@@ -171,9 +115,10 @@ if __name__ == "__main__":
 
 ```
 
+
 ## QuickSort
 
-[Link to QuickSort submission](https://www.hackerrank.com/challenges/quicksort1/submissions/code/391223331)
+[Link to QuickSort submission]()
 
 ```python
 #!/bin/python3
@@ -219,7 +164,7 @@ if __name__ == '__main__':
 
 ## String Construction
 
-[Link to String Construction submission](https://www.hackerrank.com/challenges/string-construction/submissions/code/391226669)
+[Link to String Construction submission](https://www.hackerrank.com/challenges/string-construction/submissions/code/391670462)
 
 ```python
 #!/bin/python3
