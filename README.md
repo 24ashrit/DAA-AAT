@@ -118,7 +118,7 @@ if __name__ == "__main__":
 
 ## QuickSort
 
-[Link to QuickSort submission]()
+[Link to QuickSort submission](https://www.hackerrank.com/challenges/quicksort1/submissions/code/391670010)
 
 ```python
 #!/bin/python3
