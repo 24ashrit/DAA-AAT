@@ -1,5 +1,5 @@
 # DAA_AAT_AshritM
-Data Algorithms & Analysis AAT
+Design and Analysis of Algorithms AAT
 
 Name: Ashrit M
 
