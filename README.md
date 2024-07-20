@@ -1,9 +1,8 @@
-# DAA_AAT_AshritM
-Design and Analysis of Algorithms AAT
+# Design and Analysis of Algorithms AAT
 
-Name: Ashrit M
+## Name: Ashrit M
 
-USN: 1BM22AI022
+## USN: 1BM22AI022
 
 
 ## Knapsack
